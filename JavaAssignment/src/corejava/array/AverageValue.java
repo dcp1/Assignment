@@ -10,6 +10,14 @@ public class AverageValue {
 
 	public static void main(String[] args) {
 		int[] numbers = new int[]{10,20,30,25,16,70,100};
+		int avg;
+		int sum;
+		for(int i = 0;i<numbers.length; i++){
+			sum = sum + numbers[i];
+			System.out.println( sum/numbers.length);
+			
+		
+		
 		// Write a for loop or while loop to find the average
 	}
 }
